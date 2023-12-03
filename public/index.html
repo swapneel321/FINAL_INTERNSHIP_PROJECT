@@ -1,0 +1,46 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List</title>
+    <!-- Include Axios script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+</head>
+<body>
+    <h1>Product List</h1>
+
+    <h2>Add Product</h2>
+    <form id="add-product-form">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" required>
+        <label for="sellingPrice">Selling Price:</label>
+        <input type="number" step="0.01" id="sellingPrice" required>
+        <button type="button" onclick="addProduct()">Add Product</button>
+    </form>
+
+    <h2>Product List</h2>
+    <ul id="product-list">
+        <!-- Product list will be displayed here -->
+    </ul>
+
+    <h2>Update Product</h2>
+    <form id="update-product-form">
+        <label for="updateProductName">Product Name:</label>
+        <input type="text" id="updateProductName" required>
+        <label for="updateSellingPrice">Selling Price:</label>
+        <input type="number" step="0.01" id="updateSellingPrice" required>
+        <button type="button" onclick="updateProduct()">Update Product</button>
+    </form>
+
+    <h2>User Input</h2>
+    <div id="user-input">
+        <!-- User input will be displayed here -->
+    </div>
+
+    <script>
+        // JavaScript code is placed here
+        // ...
+    </script>
+</body>
+</html>

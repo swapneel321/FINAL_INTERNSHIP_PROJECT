@@ -1,0 +1,13 @@
+2023-12-02 10:27:41.434583: Started server on 127.0.0.1:8080
+2023-12-02 10:27:55.331290: 127.0.0.1: New request:
+GET index.html HTTP/1.1 
+
+2023-12-02 10:28:12.657139: 127.0.0.1: New request:
+GET index.html HTTP/1.1 
+
+2023-12-02 10:28:13.697822: 127.0.0.1: New request:
+GET index.html HTTP/1.1 
+
+2023-12-02 10:28:15.174848: 127.0.0.1: New request:
+GET index.html HTTP/1.1 
+
